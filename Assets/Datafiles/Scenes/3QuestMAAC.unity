@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -563,7 +563,7 @@ PrefabInstance:
     - target: {fileID: 8117530580258389179, guid: fccabd4203438604f80db7d6853c9441,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.4
+      value: 10.1
       objectReference: {fileID: 0}
     - target: {fileID: 8117530580258389179, guid: fccabd4203438604f80db7d6853c9441,
         type: 3}
@@ -573,7 +573,7 @@ PrefabInstance:
     - target: {fileID: 8117530580258389179, guid: fccabd4203438604f80db7d6853c9441,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -22.5
+      value: -24.3
       objectReference: {fileID: 0}
     - target: {fileID: 8117530580258389179, guid: fccabd4203438604f80db7d6853c9441,
         type: 3}
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackingSpace: 0
-  m_StationaryCameraYOffset: 1.36144
+  m_StationaryCameraYOffset: 1.7
   m_CameraFloorOffsetObject: {fileID: 1870109254}
 --- !u!95 &757542947 stripped
 Animator:
@@ -2285,6 +2285,37 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7520893106090923742, guid: e5e43752b692d034281b2f64ee667501,
+        type: 3}
+      propertyPath: m_TargetAudioSources.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7520893106090923742, guid: e5e43752b692d034281b2f64ee667501,
+        type: 3}
+      propertyPath: m_DirectAudioVolumes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7520893106090923742, guid: e5e43752b692d034281b2f64ee667501,
+        type: 3}
+      propertyPath: m_EnabledAudioTracks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7520893106090923742, guid: e5e43752b692d034281b2f64ee667501,
+        type: 3}
+      propertyPath: m_DirectAudioMutes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7520893106090923742, guid: e5e43752b692d034281b2f64ee667501,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 196c85f2acbebf64c8a0abb949010cb2,
+        type: 3}
+    - target: {fileID: 7520893106090923742, guid: e5e43752b692d034281b2f64ee667501,
+        type: 3}
+      propertyPath: m_ControlledAudioTrackCount
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5e43752b692d034281b2f64ee667501, type: 3}
 --- !u!1001 &1026990654
@@ -2429,6 +2460,37 @@ PrefabInstance:
     - target: {fileID: 2583667573539158988, guid: cfb9e23237b350d47820d0241228f374,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188212107431793535, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_TargetAudioSources.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188212107431793535, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_DirectAudioVolumes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188212107431793535, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_EnabledAudioTracks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188212107431793535, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_DirectAudioMutes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188212107431793535, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: c4bb9eef6df379f4099a98518e0944c9,
+        type: 3}
+    - target: {fileID: 6188212107431793535, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_ControlledAudioTrackCount
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7781242527057050565, guid: cfb9e23237b350d47820d0241228f374,
@@ -5648,6 +5710,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -21.9
       objectReference: {fileID: 0}
+    - target: {fileID: 8684260360169853885, guid: fc9b6bc7db74fdf4398c850a613febdf,
+        type: 3}
+      propertyPath: m_TargetAudioSources.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8684260360169853885, guid: fc9b6bc7db74fdf4398c850a613febdf,
+        type: 3}
+      propertyPath: m_DirectAudioVolumes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8684260360169853885, guid: fc9b6bc7db74fdf4398c850a613febdf,
+        type: 3}
+      propertyPath: m_EnabledAudioTracks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8684260360169853885, guid: fc9b6bc7db74fdf4398c850a613febdf,
+        type: 3}
+      propertyPath: m_DirectAudioMutes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8684260360169853885, guid: fc9b6bc7db74fdf4398c850a613febdf,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: cf5dd7f6cc751cc4daf1687f4a79370a,
+        type: 3}
+    - target: {fileID: 8684260360169853885, guid: fc9b6bc7db74fdf4398c850a613febdf,
+        type: 3}
+      propertyPath: m_ControlledAudioTrackCount
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9b6bc7db74fdf4398c850a613febdf, type: 3}
 --- !u!1 &1314338176
@@ -6478,6 +6571,37 @@ PrefabInstance:
     - target: {fileID: 3989297213429131857, guid: 656db5c75c9574f489a59100cbd3b0f8,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712772324777476834, guid: 656db5c75c9574f489a59100cbd3b0f8,
+        type: 3}
+      propertyPath: m_TargetAudioSources.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712772324777476834, guid: 656db5c75c9574f489a59100cbd3b0f8,
+        type: 3}
+      propertyPath: m_DirectAudioVolumes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712772324777476834, guid: 656db5c75c9574f489a59100cbd3b0f8,
+        type: 3}
+      propertyPath: m_EnabledAudioTracks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712772324777476834, guid: 656db5c75c9574f489a59100cbd3b0f8,
+        type: 3}
+      propertyPath: m_DirectAudioMutes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712772324777476834, guid: 656db5c75c9574f489a59100cbd3b0f8,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 415504d904184be4bb7276655dde303f,
+        type: 3}
+    - target: {fileID: 4712772324777476834, guid: 656db5c75c9574f489a59100cbd3b0f8,
+        type: 3}
+      propertyPath: m_ControlledAudioTrackCount
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9186029939782705180, guid: 656db5c75c9574f489a59100cbd3b0f8,
